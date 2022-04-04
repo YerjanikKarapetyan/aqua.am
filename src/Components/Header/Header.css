@@ -1,0 +1,68 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 229, 238);
+    color: #190428;
+}
+
+.fishpage{
+    margin:70px;
+}
+
+a:link, a:visited,  a:hover, a:active {
+    color:#0c0014;
+    padding: 0px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.header-logo{
+    height: 10px;
+}
+
+.header-left-buttons ul{
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.header-left-buttons li{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.header-left-buttons li:hover{
+    margin: 0 15px;
+    cursor: pointer;
+    color: #6F1EAA;
+}
+
+.header-right-buttons ul{
+    display: flex;
+    list-style: none;
+    margin-right: 300px;
+}   
+
+.header-right-buttons li{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.header-button{
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: #6F1EAA;
+    background-color: #0b73c8;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: #6F1EAA;
+    background-color: #1067af;
+    box-shadow: none;
+    cursor: pointer;
+}
