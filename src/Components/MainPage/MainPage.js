@@ -8,46 +8,50 @@ const MainPage = () =>{
         <>
             <div className="main-page-first-image">
                 <div className="fishpage">
-                    <h1>
+                    <h2>
                         Aquarium Fishes
-                    </h1>
+                    </h2>
                     <ul className="main-page-fishes">
                         <li>
                             <a>Betta</a>
+                            <img src=""/>
                         </li>
                         <li>
                             <a>Guppy Fish</a>
+                            <img src=""/>
                         </li>
                         <li>
                             <a>Angelfish</a>
+                            <img src=""/>
                         </li>
                         <li>
                             <a>Platy Fish</a>
+                            <img src=""/>
                         </li>
                         <li>
                             <a>Swordtail Fish</a>
+                            <img src=""/>
                         </li>
                         <li>
                             <a>Cory Catfish</a>
+                            <img src=""/>
                         </li>
                         <li>
                             <a>Golden Fish</a>
+                            <img src=""/>
                         </li>
                         <li>
                             <a>Other</a>
+                            <img src=""/>
                         </li>
                     </ul>
                 </div>
-                <div className="betta">
-                </div>
             </div>
             <div className="main-page-second-image">
-            <div className="parrot">
-                </div>
                 <div className="parrotpage">
-                    <h1>
+                    <h2>
                         Parrots
-                    </h1>
+                    </h2>
                     <ul className="main-page-parrots">
                         <li>
                             <a>Budgerigars</a>

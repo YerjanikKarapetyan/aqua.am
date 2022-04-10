@@ -1,13 +1,10 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(228, 229, 238);
-    color: #190428;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
 }
 
-.fishpage{
-    margin:70px;
-}
 
 a:link, a:visited,  a:hover, a:active {
     color:#0c0014;
@@ -18,7 +15,10 @@ a:link, a:visited,  a:hover, a:active {
   }
   
 .header-logo{
-    height: 10px;
+   font-size: 30px;
+   font-style: italic;
+   cursor: pointer;
+   font-family: 'Grape Nuts', cursive;
 }
 
 .header-left-buttons ul{

@@ -10,9 +10,9 @@ const Header = () =>{
 
     return(
     <>
+        <Router>
         <div className='header'>
             <div className='header-left-buttons'>
-                <Router>
                     <ul>
                         <li>
                             <Link to="/">Home</Link>
@@ -32,12 +32,11 @@ const Header = () =>{
                         <Route exact path='/Fish' element={< Fish/>}></Route>
                         <Route exact path='/AboutUS' element={< AboutUs/>}></Route>
                     </Routes>
-                </Router>
             </div>
             <div className='header-logo'>
+                Aqua.am
             </div>
             <div className='header-right-buttons'>
-                <Router>
                     <ul>
                         <li>
                             <a href='/Login'>Login</a>
@@ -49,9 +48,9 @@ const Header = () =>{
                     <Routes>
                         <Route exact path='/Login' element={<Login/>}></Route>
                     </Routes>
-                </Router>
             </div>
         </div>
+        </Router>
     </>
     )
 }
