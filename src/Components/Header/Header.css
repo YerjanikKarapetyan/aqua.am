@@ -1,13 +1,13 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    color: #000000;
+    background-color: rgb(31, 98, 2);
+    color: #ffffff;
 }
 
 
 a:link, a:visited,  a:hover, a:active {
-    color:#0c0014;
+    color:#ffffff;
     padding: 0px 1px;
     text-align: center;
     text-decoration: none;
@@ -52,8 +52,8 @@ a:link, a:visited,  a:hover, a:active {
 .header-button{
     padding: 3px 10px;
     border-radius: 15px;
-    color: #6F1EAA;
-    background-color: #0b73c8;
+    color: #ffffff;
+    background-color: #0b9c06;
     box-shadow: none;
     cursor: pointer;
 }
@@ -61,8 +61,8 @@ a:link, a:visited,  a:hover, a:active {
 .header-button:hover{
     padding: 3px 10px;
     border-radius: 15px;
-    color: #6F1EAA;
-    background-color: #1067af;
+    color: #ffffff;
+    background-color: #0b9c06;
     box-shadow: none;
     cursor: pointer;
 }

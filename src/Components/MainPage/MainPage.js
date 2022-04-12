@@ -1,8 +1,9 @@
 import React from "react";
 import './MainPage.css';
-import { ReactComponent as betta } from '../../image/betta.png'
 
 const MainPage = () =>{
+
+  
     
     return(
         <>
@@ -13,36 +14,36 @@ const MainPage = () =>{
                     </h2>
                     <ul className="main-page-fishes">
                         <li>
-                            <a>Betta</a>
-                            <img src=""/>
+                            <h3>Betta</h3>
+                            <img src={require('../Fish/betta1.jpg')} className="fish-image-port"/>
                         </li>
                         <li>
-                            <a>Guppy Fish</a>
-                            <img src=""/>
+                            <h3>Guppy</h3>
+                            <img src={require('../Fish/guppy.png')} className="fish-image"/>
                         </li>
                         <li>
-                            <a>Angelfish</a>
-                            <img src=""/>
+                            <h3>Angelfish</h3>
+                            <img src={require('../Fish/angelfish1.jpg')} className="fish-image-port"/>
                         </li>
                         <li>
-                            <a>Platy Fish</a>
-                            <img src=""/>
+                            <h3>Platy Fish</h3>
+                            <img src={require('../Fish/platty.jpg')} className="fish-image-port" />
                         </li>
                         <li>
-                            <a>Swordtail Fish</a>
-                            <img src=""/>
+                            <h3>Swordtail Fish</h3>
+                            <img src={require('../Fish/swordtail.jpg')} className="fish-image-port" />
                         </li>
                         <li>
-                            <a>Cory Catfish</a>
-                            <img src=""/>
+                            <h3>Cory Catfish</h3>
+                            <img src={require('../Fish/cory.jpg')} className="fish-image-port" />
                         </li>
                         <li>
-                            <a>Golden Fish</a>
-                            <img src=""/>
+                            <h3>Golden Fish</h3>
+                            <img src={require('../Fish/golden.jpg')} className="fish-image-port" />
                         </li>
                         <li>
-                            <a>Other</a>
-                            <img src=""/>
+                            <h3>Other</h3>
+                            <img src={require('../Fish/neon.jpg')} className="fish-image-port" />
                         </li>
                     </ul>
                 </div>

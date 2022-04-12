@@ -1,6 +1,6 @@
 /* first image */
 .main-page-first-image{
-    background-color:#bde0ff;;
+    background-color:#dbebfa;
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -30,7 +30,6 @@
 
 
 .betta{ 
-        background-image: url(../../image/betta.png);
         background-repeat: no-repeat;
         width: 500px;
         height: 500px;
@@ -44,18 +43,43 @@
     flex-direction: row;
     align-content: stretch;
 }
+.main-page-fishes h3{
+    text-align: center;
+}
 
 .main-page-fishes li{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    cursor: pointer;
     width: 175px;
     height: 175px;
     margin: 5px;
+    /* border-radius: 500px; */
 }
 
-.main-page-fishes li:hover{
-    border: 1px solid red;
-    width: 180px;
-    height: 180px;
+.fish-image{
+    width: 175px;
+    height: 175px;
+    /* border-radius: 500px; */
+    
+}
+
+.fish-image:hover{
+    width: 178px;
+    height: 178px;
+    /* border-radius: 500px; */
+    
+}
+
+.fish-image-port{
+    width: 175px;
+    height: 175px;
+    border-radius: 500px;
+}
+
+.fish-image-port:hover{
+    width: 178px;
+    height: 178px;
+    border-radius: 500px;
 }
 
 .main-page-first-image ul li{
@@ -64,7 +88,7 @@
 
 /* second image  */
 
-.main-page-second-image{
+.main-page-second-image{    
     background-color:#ffda7e;;
     display: flex;
     justify-content: space-around;
@@ -94,7 +118,7 @@
 
 
 .parrot{ 
-        background-image: url(../../image/parrot.png);
+        
         background-repeat: no-repeat;
         width: 500px;
         height: 500px;
@@ -112,15 +136,9 @@
     border: 1px solid red;
     width: 175px;
     height: 175px;
-    margin: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
 }
-
-.main-page-parrots li:hover{
-    border: 1px solid red;
-    width: 180px;
-    height: 180px;
-}
-
 .main-page-second-image ul li{
     margin-top: 5px;
 }
