@@ -55,28 +55,36 @@ const MainPage = () =>{
                     </h2>
                     <ul className="main-page-parrots">
                         <li>
-                            <a>Budgerigars</a>
+                            <h3>Budgerigars</h3>
+                            <img src={require('../Fish/Budg.jpg')} className="parrot-image-port" />
                         </li>
                         <li>
-                            <a>Cockatiels</a>
+                            <h3>Cockatiels</h3>
+                            <img src={require('../Fish/Cock.jpg')} className="parrot-image-port" />
                         </li>
                         <li>
-                            <a>Cockatoos</a>
+                            <h3>Cockatoos</h3>
+                            <img src={require('../Fish/Kakadu.jpg')} className="parrot-image-port" />
                         </li>
                         <li>
-                            <a>Macaws</a>
+                            <h3>Macaws</h3>
+                            <img src={require('../Fish/Macaw.jpg')} className="parrot-image-port" />
                         </li>
                         <li>
-                            <a>Conures</a>
+                            <h3>Conures</h3>
+                            <img src={require('../Fish/Conure.jpg')} className="parrot-image-port" />
                         </li>
                         <li>
-                            <a>Ringnecks</a>
+                            <h3>Ringnecks</h3>
+                            <img src={require('../Fish/Ringneck.jpg')} className="parrot-image-port" />
                         </li>
                         <li>
-                            <a>Kakariki</a>
+                            <h3>Kakariki</h3>
+                            <img src={require('../Fish/Kakariki.jpg')} className="parrot-image-port" />
                         </li>
                         <li>
-                            <a>Other</a>
+                            <h3>Other</h3>
+                            <img src={require('../Fish/bird.jpg')} className="parrot-image-port" />
                         </li>
                     </ul>
                 </div>

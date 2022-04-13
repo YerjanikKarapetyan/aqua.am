@@ -60,6 +60,7 @@
     width: 175px;
     height: 175px;
     /* border-radius: 500px; */
+    opacity: 0.8;
     
 }
 
@@ -67,6 +68,7 @@
     width: 178px;
     height: 178px;
     /* border-radius: 500px; */
+    opacity: 1;
     
 }
 
@@ -74,12 +76,14 @@
     width: 175px;
     height: 175px;
     border-radius: 500px;
+    opacity: 0.8;
 }
 
 .fish-image-port:hover{
     width: 178px;
     height: 178px;
     border-radius: 500px;
+    opacity: 1;
 }
 
 .main-page-first-image ul li{
@@ -89,7 +93,7 @@
 /* second image  */
 
 .main-page-second-image{    
-    background-color:#ffda7e;;
+    background-color:#fffbf1;;
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -103,7 +107,7 @@
 
 .main-page-second-image h2{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(253, 217, 106);
     color: #3e0368;
 
 }
@@ -125,6 +129,24 @@
         margin-top: 100px;
 }
 
+.parrot-image-port{
+    width: 175px;
+    height: 175px;
+    border-radius: 500px;
+    opacity: 0.8;
+}
+
+.parrot-image-port:hover{
+    width: 178px;
+    height: 178px;
+    border-radius: 500px;
+    opacity: 1;
+}
+
+.main-page-parrots h3{
+    text-align: center;
+}
+
 .main-page-parrots{
     display: flex;
     list-style: none;
@@ -133,7 +155,7 @@
 }
 
 .main-page-parrots li{
-    border: 1px solid red;
+    /* border: 1px solid red */
     width: 175px;
     height: 175px;
     margin: 0px 5px;
