@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import './Login.css';
 
 const Login = () => {
+    const [inpLogin, setInpLogin] = useState('');
+    const InputChange = (eventChange) =>setInpLogin(eventChange.target.value)
 
     return(
-        <div>
-            Login
-        </div>
+        <span>
+            <input value={inpLogin} onChange = {InputChange}/>
+        </span>
     )
 }
 

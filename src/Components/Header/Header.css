@@ -1,68 +1,45 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(31, 98, 2);
+    background-color: rgb(33, 35, 32);
     color: #ffffff;
+    padding: 0;
 }
 
 
-a:link, a:visited,  a:hover, a:active {
+a:link, a:visited {
     color:#ffffff;
-    padding: 0px 1px;
+    padding: 0px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    margin: 0;
   }
   
-.header-logo{
-   font-size: 30px;
-   font-style: italic;
-   cursor: pointer;
-   font-family: 'Grape Nuts', cursive;
+a:hover, a:active{
+    color: rgb(211, 231, 249);
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
 }
 
-.header-left-buttons ul{
+.header ul{
     display: flex;
     list-style: none;
-    margin-left: 100px;
+    padding: 5px;
+    justify-content: flex-end;
 }
 
-.header-left-buttons li{
-    margin: 0 15px;
-    cursor: pointer;
-}
-
-.header-left-buttons li:hover{
-    margin: 0 15px;
-    cursor: pointer;
-    color: #6F1EAA;
-}
-
-.header-right-buttons ul{
-    display: flex;
-    list-style: none;
-    margin-right: 300px;
-}   
-
-.header-right-buttons li{
-    margin: 0 15px;
-    cursor: pointer;
-}
-
-.header-button{
-    padding: 3px 10px;
-    border-radius: 15px;
+.header ul li{
+    margin:  0 15px;
     color: #ffffff;
-    background-color: #0b9c06;
-    box-shadow: none;
     cursor: pointer;
 }
 
-.header-button:hover{
-    padding: 3px 10px;
-    border-radius: 15px;
-    color: #ffffff;
-    background-color: #0b9c06;
-    box-shadow: none;
+.header span h4{
+    text-align: center;
+    margin-right: 15px;
     cursor: pointer;
 }

@@ -1,8 +1,15 @@
-import React from "react";
+import React,{useState}from "react";
 import './MainPage.css';
+import Fish from '../Fish/Fish';
 
 const MainPage = () =>{
 
+    const [select, setSelect] = useState('');
+    const pressSelect = (eventSelect) => {
+       setSelect(eventSelect.target.value);
+       setSelect(console.log(''))
+    }
+ 
   
     
     return(
@@ -15,7 +22,7 @@ const MainPage = () =>{
                     <ul className="main-page-fishes">
                         <li>
                             <h3>Betta</h3>
-                            <img src={require('../Fish/betta1.jpg')} className="fish-image-port"/>
+                            <img src={require('../Fish/betta1.jpg')} className="fish-image-port" value = {select} onClick={pressSelect}/>
                         </li>
                         <li>
                             <h3>Guppy</h3>

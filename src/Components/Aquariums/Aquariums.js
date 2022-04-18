@@ -4,7 +4,7 @@ const Aquariums = () => {
 
     return(
         <div>
-            This is Aquariums
+            
         </div>
     )
 }
